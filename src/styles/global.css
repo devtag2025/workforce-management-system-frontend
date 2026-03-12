@@ -707,6 +707,41 @@ html, body {
   margin: 0;
 }
 
+/* Auth page: Sign In / Register tabs */
+.auth-tabs .ant-tabs-nav {
+  margin-bottom: 20px;
+}
+.auth-tabs .ant-tabs-tab {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 16px;
+}
+.auth-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #16a34a;
+}
+.auth-tabs .ant-tabs-ink-bar {
+  background: #22c55e;
+  height: 3px;
+  border-radius: 2px;
+}
+.auth-tabs .ant-tabs-nav::before {
+  border-bottom-color: #e5e7eb;
+}
+.auth-tabs .ant-tabs-tab:hover {
+  color: #16a34a;
+}
+
+/* Register form: extra spacing for longer form */
+.register-form .ant-form-item {
+  margin-bottom: 18px;
+}
+.register-form .ant-form-item:last-of-type {
+  margin-bottom: 8px;
+}
+.register-form .ant-select-large {
+  width: 100%;
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
